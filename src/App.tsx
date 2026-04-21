@@ -1,10 +1,10 @@
-import Card from "./components/Card";
+import CardList from "./components/CardList";
 
 export default function App() {
   return (
-    <div className="bg-blue-500 text-white p-4 h-screen font-bold text-5xl text-center">
-      App
-      <Card />
+    <div className="main-container">
+      <h1>Course List</h1>
+      <CardList />
     </div>
   );
 }
